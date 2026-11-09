@@ -7,15 +7,15 @@
   --color-background: #fffaf7;
   --color-surface: #ffffff;
 
-  --color-primary: #a96ba8;
-  --color-primary-dark: #754475;
-  --color-primary-light: #ead5ed;
+  --color-primary: #f4c2c2;
+  --color-primary-dark: #ffb7ce;
+  --color-primary-light: #ffb6c1;
 
-  --color-secondary: #f2dce8;
-  --color-secondary-light: #fff0f5;
+  --color-secondary: #ffd700;
+  --color-secondary-light: #d4af37;
 
   --color-gold: #c7a15b;
-  --color-gold-light: #e9d7a5;
+  --color-gold-light: #d0a54e;
 
   --color-text: #342634;
   --color-text-light: #786c79;
@@ -168,7 +168,7 @@ svg {
 
 .brand-text {
   font-family: var(--font-heading);
-  font-size: 23px;
+  font-size: 17px;
   font-weight: 600;
 
   color: var(--color-primary-dark);
@@ -1252,7 +1252,7 @@ svg {
   }
 
   .brand-text {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .nav-links {
@@ -1338,7 +1338,7 @@ svg {
   }
 
   .brand-text {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .nav-links {
@@ -1630,7 +1630,7 @@ svg {
 
 @media (max-width: 380px) {
   .brand-text {
-    font-size: 17px;
+    font-size: 13px;
   }
 
   .nav-button {

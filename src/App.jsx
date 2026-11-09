@@ -10,7 +10,7 @@ EDIT YOUR EVENT DETAILS HERE
 const eventDetails = {
   name: "Alhaja N. A. Abdulsalam",
 
-  eventTitle: "A Vintage Affair",
+  eventTitle: "Celebration Of A Remarkable Journey",
 
   subtitle: "A Birthday & Retirement Celebration",
 
@@ -21,9 +21,9 @@ const eventDetails = {
 
   time: "12:00 PM",
 
-  venue: "VENUE NAME HERE",
+  venue: "WATERCRESS EVENT CENTER",
 
-  address: "Enter the full event address here",
+  address: "48 ORITSHE STREET OFF AWOLOWO WAY/ ALLEN AVENUE",
 
   // Replace this with the actual venue address.
   // Google Maps will use it to generate directions.
@@ -128,9 +128,11 @@ function App() {
 
       <header className="navbar">
         <a href="#home" className="brand">
-          <span className="brand-mark">N.A.</span>
+          <span className="brand-mark">N.A</span>
 
-          <span className="brand-text">A Vintage Affair</span>
+          <span className="brand-text">
+            Celebration Of A Remarkable Journey
+          </span>
         </a>
 
         <nav className="nav-links" aria-label="Main navigation">
@@ -166,9 +168,9 @@ function App() {
             <p className="hero-pretitle">Honouring a beautiful life</p>
 
             <h1>
-              A Vintage
+              Celebration Of A
               <br />
-              <span>Affair.</span>
+              <span>Remarkable Journey</span>
             </h1>
 
             <div className="hero-divider">
@@ -201,14 +203,14 @@ function App() {
             <div className="portrait-frame">
               <div className="portrait-border">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/mum-portrait.jpg`}
+                  src={`${import.meta.env.BASE_URL}public/mum.jpg`}
                   alt={`${eventDetails.name}, celebrating her birthday and retirement`}
                   className="hero-portrait"
                 />
               </div>
 
               <div className="portrait-caption">
-                <span className="caption-small">A life beautifully lived</span>
+                <span className="caption-small"></span>
 
                 <span className="caption-large">A legacy that lives on.</span>
               </div>
@@ -217,11 +219,7 @@ function App() {
             <div className="floating-note">
               <span className="floating-star">✦</span>
 
-              <span>
-                Celebrating
-                <br />
-                her next chapter
-              </span>
+              <span>Celebrating her next chapter</span>
             </div>
           </div>
 
@@ -336,14 +334,14 @@ function App() {
 
               <p className="detail-note">{eventDetails.address}</p>
 
-              <a
+              {/* <a
                 href={googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-link">
                 Get directions
                 <ArrowIcon />
-              </a>
+              </a> */}
             </article>
           </div>
         </section>
@@ -352,20 +350,18 @@ function App() {
             LOCATION & MAP
         ========================================== */}
 
-        <section className="location-section section-padding" id="location">
-          <div className="location-heading">
+        <section className="resources-section section-padding" id="location">
+          <div className="resources-heading">
             <div>
               <div className="section-label">FIND YOUR WAY</div>
-
               <p className="script-text">We'll save you a seat</p>
-
               <h2>
                 See you
                 <br />
                 <span>there.</span>
               </h2>
-
-              <p className="location-address">
+              <br /> <br />
+              <p className="resources-section section-padding">
                 <LocationIcon />
 
                 <span>
@@ -375,8 +371,9 @@ function App() {
                 </span>
               </p>
             </div>
+          </div>
 
-            <a
+          {/* <a
               href={googleMapsUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -384,7 +381,7 @@ function App() {
               Open Google Maps
               <ArrowIcon />
             </a>
-          </div>
+          
 
           <div className="map-container">
             <iframe
@@ -402,7 +399,7 @@ function App() {
           <p className="map-caption">
             Need directions? Open the map to plan your journey directly from
             your current location.
-          </p>
+          </p> */}
         </section>
 
         {/* =========================================
@@ -422,7 +419,7 @@ function App() {
             </h2>
           </div>
 
-          <div className="resources-grid">
+          {/* <div className="resources-grid">
             <article className="resource-card menu-card" id="menu">
               <div className="resource-number">01</div>
 
@@ -488,7 +485,7 @@ function App() {
 
               <span className="resource-decoration">PROGRAMME</span>
             </article>
-          </div>
+          </div> */}
         </section>
 
         {/* =========================================
@@ -530,7 +527,7 @@ function App() {
 
       <footer className="footer">
         <a href="#home" className="footer-brand">
-          A Vintage Affair
+          Celebration Of A Remarkable Journey
         </a>
 
         <p>Celebrating a remarkable life and a beautiful new beginning.</p>
