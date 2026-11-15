@@ -203,7 +203,7 @@ function App() {
             <div className="portrait-frame">
               <div className="portrait-border">
                 <img
-                  src={`${import.meta.env.BASE_URL}public/mum.jpg`}
+                  src={`${import.meta.env.BASE_URL}/mum.jpg`}
                   alt={`${eventDetails.name}, celebrating her birthday and retirement`}
                   className="hero-portrait"
                 />
